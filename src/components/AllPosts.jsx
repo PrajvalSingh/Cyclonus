@@ -10,7 +10,7 @@ const AllPosts = () => {
     const [isLoaded, setIsLoaded] = useState(false)
 
     const api = axios.create({
-        baseURL: "https://cyclonus-blog-api.herokuapp.com/"
+        baseURL: "https://cyclonus-blog-manager.herokuapp.com/api/posts"
     })
 
     useEffect(() => {
